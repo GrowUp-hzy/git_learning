@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>当当登录页面</title>
+		<link rel="stylesheet" href="css/login_style.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+	</head>
+	<body>
+		<!--页头-->
+		<div class="head">
+            <a href="http://www.dangdang.com">
+                <img src="image/dangdang_logo.png" />
+            </a>
+            <div class="improve">
+                <span class="icon"></span><a class="info" href="http://survey.dangdang.com/html/2526.html" target="_blank">“登录页面“改进建议</a>
+            </div>
+        </div>
+		<!--登录框框-->
+		<div id="" class="login_bg">
+			<img class="QR_code" src="image/scan_icon.png" />
+			<img class="hint" src="image/2019-10-02 195744.png" height="30px" />
+			<p class="password_login">密码登录</p>
+		 	<div id="J_cheatProofTop" class="new_tip">
+		 		请勿设置与邮箱密码相同的登录和支付密码，
+		 		<a href="http://blog.dangdang.com/?p=22276">谨防诈骗</a>！
+		 	</div>
+		 	<form action="" method="post">
+		 		<input id="input_name" class="input" type="text" name="name" style="width: 220px; height: 28px;" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱/昵称/手机号码"/><br />
+		 		<input id="input_password" class="input" type="password" name="password" style="width: 220px; height: 28px;" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码"/><br />
+		 		<input id="subbtn" type="submit" value="登录" style=" border:hidden;border-radius: 9px; color:white;background: crimson; width: 120px; height: 30px;" />
+		 	</form>
+		 	<a id="reg" style="color: gray;text-decoration: none;" href="">立即注册</a>
+		 	<img id="tp" src="image/批注 2019-10-02 210415.png" width="100px" height="40px"/>
+		 	<a id="wjmm" href="" style="font:12px;text-decoration: none;color: #1A66B3;">忘记密码?</a>
+		</div>
+<script>
+	$("#subbtn").click(function(){
+		if(confirm("是否跳转?")){
+			location = "http://book.dangdang.com/";
+		}
+	});
+</script>
+	</body>
+</html>

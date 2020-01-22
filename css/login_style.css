@@ -1,0 +1,56 @@
+html {
+    font-family: "Microsoft Yahei";
+}
+
+.improve {float: right;margin-top: 34px; }
+.improve .icon{display: inline-block;width:15px;height:19px;background: url(../static/image/improve.png) no-repeat 0 0;vertical-align:middle;}
+.improve .info{text-decoration: none;color:#787878}
+
+.new_tip { width: 340px; font-size: 12px; line-height:24px; color:#828282; padding-left:22px; background:url(../static/image/new_tip.png) 3px 5px no-repeat #fef7f5;border: 1px solid #fedbd1;  position: absolute; right: -1px;top: -28px;}
+.new_tip a {text-decoration: none; color:#1a66b3;}
+.login_bg{width: 361px;height: 380px; border: solid 2px #EEF2F4; position: absolute; left: 560px; top: 150px;}
+
+.QR_code{margin-left: 302px; margin-top: 4px;}
+
+.hint{position: absolute; top: 10px; left: 190px;}
+
+.password_login {
+    font-size: 18px;
+    color: #3c3c3c;
+    margin-top: 5px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.input{
+	margin-left: 65px;
+}
+#input_password{
+	margin-top: 10px;
+	background: url(../static/image/icon_20150706.png) -15px -153px no-repeat;
+}
+#input_name{
+	background: url(../static/image/icon_20150706.png) -16px -113px no-repeat;
+}
+#subbtn{
+	position: absolute;
+	top: 230px;
+	left: 113px;
+}
+#reg{
+	position: absolute;
+	top: 225px;
+	left: 240px;
+}
+#tp{
+	position: absolute;
+	top: 300px;
+	left: 125px;
+}
+#wjmm{
+	position: absolute;
+	top: 245px;
+	left: 239px;
+}
+
